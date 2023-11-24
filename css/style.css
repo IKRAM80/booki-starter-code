@@ -13,6 +13,22 @@
     color: var(--main-color);
 }
 
+.booki-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: flex-end;
+}
+.logo{
+    width: 61.09px
+    
+
+
+}
 body {
     display: flex;
     justify-content: center;
