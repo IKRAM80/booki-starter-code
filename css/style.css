@@ -13,22 +13,10 @@
     color: var(--main-color);
 }
 
-.booki-nav {
-    display: flex;
-    justify-content: space-between;
-}
-.nav {
-        display: flex;
-        flex-direction: row;
 
-        justify-content: flex-end;
-}
-.logo{
-    width: 61.09px
+
     
 
-
-}
 body {
     display: flex;
     justify-content: center;
@@ -40,12 +28,49 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
-
-a {
-    color: inherit;
-    text-decoration: none;
+.logoNav {
+    display: flex;
+    justify-content: space-between;
+}
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
 }
 
+/*Nav*/
+.colorBlue{
+    color: var(--main-color);
+}
+.sizeNav{
+    height: 100px;
+}
+.sizeLiens{
+    width: 45%;
+}
+.sizeLien{
+    width: 140px;
+    height: 99px;
+}
+.colorLien2{
+    color: black;
+
+}
+.bordureNav{
+    border-top: 1px solid var(--main-color);
+
+}
+.bordureNav23{
+    border-top: 1px solid transparent;
+}
+.marglogo{
+    margin-bottom: 7px;
+}
+
+*/header*/
 .section-title {
     margin: 0;
     font-size: 22px;
