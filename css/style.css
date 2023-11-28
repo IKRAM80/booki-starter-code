@@ -13,10 +13,6 @@
     color: var(--main-color);
 }
 
-
-
-    
-
 body {
     display: flex;
     justify-content: center;
@@ -45,6 +41,7 @@ body {
 .colorBlue{
     color: var(--main-color);
 }
+
 .sizeNav{
     height: 100px;
 }
@@ -74,6 +71,51 @@ body {
 }
 
 */header*/
+.borderSearch {
+    width: 377px;
+    border-radius: 15px;
+    border: 1px #F2F2F2;
+}
+.iconSize {
+    height: 49px;
+    width: 50px;
+    color:black;
+    border-radius: 15px 0px 0px 15px;
+}
+.backGris {
+    background-color: #F2F2F2 ;
+}
+
+.recherche {
+    height: 49px;
+    width: 196px;
+    font-size: 18px;
+    font-weight: 700px;
+    color: black;
+    
+}
+.borderNone {
+  border: none; 
+}
+
+.paddingSearch {
+    padding-left: 20px;
+}
+
+.backBlue {
+    background-color: var(--main-color);
+}
+.buttonSearch{
+    height: 49px;
+    width: 132px;  
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer ;
+}
+
+
 .section-title {
     margin: 0;
     font-size: 22px;
