@@ -138,6 +138,7 @@ body {
     border: 2px;
     border-color: grey;
     border-radius: 25px;
+    border-style: solid;
     
 }
 
@@ -149,7 +150,7 @@ body {
     height: 50px;
     width: 167px;
 }
-.buttonFilter :hover{
+.button :hover{
     background-color: #DEEBFF ;
 }
 /*Infobar*/
