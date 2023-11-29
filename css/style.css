@@ -2,22 +2,18 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
-
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
-
 .fa-solid {
     color: var(--main-color);
 }
-
 body {
     display: flex;
     justify-content: center;
 }
-
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -36,12 +32,10 @@ body {
     display: flex;
     justify-content: center;
 }
-
 /*Nav*/
 .colorBlue{
     color: var(--main-color);
 }
-
 .sizeNav{
     height: 100px;
 }
@@ -54,11 +48,9 @@ body {
 }
 .colorLien2{
     color: black;
-
 }
 .bordureNav{
     border-top: 1px solid var(--main-color);
-
 }
 .bordureNav23{
     border-top: 1px solid transparent;
@@ -69,8 +61,13 @@ body {
 .decorationNone{
     text-decoration: none;
 }
-
 */header*/
+.borderNone {
+    border: none; 
+  }
+.alignItems{
+    align-items: center;
+}
 .borderSearch {
     width: 377px;
     border-radius: 15px;
@@ -91,12 +88,12 @@ body {
     width: 196px;
     font-size: 18px;
     font-weight: 700px;
+    border: 1px;
+    border-color: grey;
     color: black;
     
 }
-.borderNone {
-  border: none; 
-}
+
 
 .paddingSearch {
     padding-left: 20px;
@@ -112,10 +109,55 @@ body {
     font-weight: 700;
     color: #FFFFFF;
     border-radius: 0px 15px 15px 0px;
-    cursor: pointer ;
+    
 }
 
+/*Filtres*/
+.flexStart{
+    display: flex;
+    justify-content: flex-start;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+}
 
+.buttonEconomique {
+    height: 50px;
+    width: 173px;
+}
+.buttonFamilial {
+    height: 50px;
+    width: 134px;
+}
+.button{
+    font-size: 17px;
+    font-weight: 700px;
+    padding: 4px 19px 4px 19px;
+    background-color: #FFFFFF;
+    border: 2px;
+    border-color: grey;
+    border-radius: 25px;
+    
+}
+
+.buttonRomantique{
+    height: 50px;
+    width: 170px;
+}
+.buttonPepite{
+    height: 50px;
+    width: 167px;
+}
+.buttonFilter :hover{
+    background-color: #DEEBFF ;
+}
+/*Infobar*/
+.infoIcon{
+    height: 24px;
+    width: 24px;
+    border: 1px;
+}
 .section-title {
     margin: 0;
     font-size: 22px;
