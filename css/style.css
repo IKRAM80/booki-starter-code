@@ -53,8 +53,6 @@ a:hover{
     height: 35px;
     width: 63px ;
 }
-
-
 .decorationNone{
     text-decoration: none;
 }
@@ -93,12 +91,9 @@ a:hover{
     color: black;
     
 }
-
-
 .paddingSearch {
     padding-left: 20px;
 }
-
 .backBlue {
     background-color: var(--main-color);
 }
@@ -108,10 +103,8 @@ a:hover{
     font-size: 18px;
     font-weight: 700;
     color: #FFFFFF;
-    border-radius: 0px 15px 15px 0px;
-    
+    border-radius: 0px 15px 15px 0px;   
 }
-
 /*Filtres*/
 .flexStart{
     display: flex;
@@ -121,7 +114,6 @@ a:hover{
     display: flex;
     justify-content: space-between;
 }
-
 .buttonEconomique {
     height: 50px;
     width: 173px;
@@ -136,12 +128,10 @@ a:hover{
     padding: 4px 19px 4px 19px;
     background-color: #FFFFFF;
     border: 2px;
-    border-color: grey;
+    border-color: #D9D9D9;
     border-radius: 25px;
-    border-style: solid;
-    
+    border-style: solid;   
 }
-
 .buttonRomantique{
     height: 50px;
     width: 170px;
