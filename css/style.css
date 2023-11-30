@@ -33,33 +33,33 @@ body {
     justify-content: center;
 }
 /*Nav*/
-.colorBlue{
+a:hover{
     color: var(--main-color);
-}
-.sizeNav{
-    height: 100px;
-}
-.sizeLiens{
-    width: 45%;
-}
-.sizeLien{
-    width: 140px;
-    height: 99px;
-}
-.colorLien2{
-    color: black;
-}
-.bordureNav{
     border-top: 1px solid var(--main-color);
 }
-.bordureNav23{
-    border-top: 1px solid transparent;
+.sizeNav{
+    height: 79px;
+    width: 1440px;
 }
-.marglogo{
-    margin-bottom: 7px;
+.sizeLiens{
+    height: 35px;
+    width: 344px;
 }
+.sizeLien1{
+    width: 113px;
+    height: 35px;
+}
+.sizeLien2{
+    height: 35px;
+    width: 63px ;
+}
+
+
 .decorationNone{
     text-decoration: none;
+}
+.colorBlack{
+    color: black;
 }
 */header*/
 .borderNone {
