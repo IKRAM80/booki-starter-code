@@ -140,7 +140,7 @@ a:hover{
     height: 50px;
     width: 167px;
 }
-.button :hover{
+.button:hover{
     background-color: #DEEBFF ;
 }
 /*Infobar*/
