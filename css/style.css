@@ -149,6 +149,8 @@ a:hover{
     width: 24px;
     border: 1px;
 }
+/*Les sections main*/
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -178,6 +180,7 @@ a:hover{
 }
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -194,6 +197,13 @@ a:hover{
 .hebergements {
     width: 65%;
 }
+.hebergements-cards img {
+    width: 250.33px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 
 /****** Populaires ***********/
 .populaires {
