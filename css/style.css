@@ -10,10 +10,7 @@
 .fa-solid {
     color: var(--main-color);
 }
-body {
-    display: flex;
-    justify-content: center;
-}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -282,6 +279,7 @@ p {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;  
+    margin-bottom: 40px;
 }
 .activitéImg{
     margin-top: 40px;
@@ -303,7 +301,17 @@ p {
 }
 /*Footer*/
 .backFooter{
-    background-color: #F2F2F2;
+    background-color: var(--main-bg-color);
+    margin-top: 20px;
+   
+}
+.directionColumn{
+    display: flex;
+    flex-direction: column;
+}
+.directionRow{
+    display: flex;
+    width: 100%;
 }
 
 
