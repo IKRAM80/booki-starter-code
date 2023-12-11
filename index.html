@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -21,8 +21,8 @@
     <header>
         <nav class="sizeNav">
             <div class="logoNav">
-                <div>
-                    <img src="images/logo/Booki.png" alt="logo-Booki" width="61.09px" height="19px">
+                <div >
+                    <img class="booki" src="images/logo/Booki.png" alt="logo-Booki">
 
                 </div>
                 <div class="sizeLiens flexAround ">
@@ -39,7 +39,7 @@
     </header>
     <main>
         <!--Un titre h1, une paragraphe et un formulaire avec une icone maps, une barre de recherche et un boutton-->
-        <section> 
+        
             <div>  <h1>Trouvez votre hébergement pour des vacances de rève</h1>
                    <p>En pleine centre-ville ou en pleine nature</p>
             </div>
@@ -53,31 +53,33 @@
              </div>
              <div class="backBlue flexCenter buttonSearch alignItems"> Rechercher</div>
             </div>
-         </section>
 
          <!--Une section Filtres-->
-        <section class=" flexStart ">
-             <div class=" flexCenter alignItems" >Filtre</div>&nbsp &nbsp 
-             <div class="button buttonEconomique flexCenter alignItems "><i class="fa-solid fa-money-bill-wave"></i>
-               Economique
-             </div>
-             <div class="button buttonFamilial flexCenter alignItems"><i class="fa-solid fa-person"></i>
-              Familial
-             </div>
-             <div class="button buttonRomantique flexCenter alignItems"><i class="fa-solid fa-heart"></i>
-              Romantique
-             </div>
-             <div class="button buttonPepite flexCenter alignItems"><i class="fa-solid fa-fire"></i>
-              Nos pépites
-             </div>
-         </section>
+        <div class=" flexStart ">
+            <P class="flexCenter alignItems"> Filtres</P>
+             
+            <button class="button buttonEconomique flexAround alignItems "><i class="fa-solid fa-money-bill-wave"></i>
+            Economique
+            </button>
+
+            <button class="button buttonFamilial flexAround alignItems"><i class="fa-solid fa-person"></i>
+            Familial
+            </button>
+            <button class="button buttonRomantique flexAround alignItems"><i class="fa-solid fa-heart"></i>
+            Romantique
+            </button>
+            <button class="button buttonPepite flexAround alignItems"><i class="fa-solid fa-fire"></i>
+            Nos pépites
+            </button>
+             
+        </div>
              <!--Une section Infobar-->      
-         <section class="flexStart ">
+         <div class="flexStart ">
              <P><i class="fa-solid fa-info infoIcon"></i> Plus de 500 logements sont disponibles dans cette ville</P>
-         </section>
+         </div>
          
-         <!--Section hébergements And Populaires-->
-         <section>
+         <!-- hébergements And Populaires-->
+         
            <div  id="hebergements" class="hebergements-and-populaires">
                 <section  class="hebergements">
                  
@@ -86,7 +88,7 @@
                         
                            <a class="decorationNone colorBlack flexAroundHebergements" href="#">
                             <article class="card1">
-                                <img src="./images/hebergements/fred-kleber.jpg" alt="photo d'une petite chambre avec deux lits d'une place" width="250px" height="124px">
+                                <img src="./images/hebergements/fred-kleber.jpg" alt="Image d'une petite chambre d'hôtel avec deux lits d'une place" >
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel du port</h3>
@@ -103,7 +105,7 @@
                                 </div>
                             </article>
                             <article class="card1">
-                                <img src="./images/hebergements/febrian-zakaria.jpg" alt="photo d'une petite chambre avec deux lits d'une place" width="250px" height="124px">
+                                <img src="./images/hebergements/febrian-zakaria.jpg" alt="Image d'une petite chambre d'hôtel avec deux lits d'une place" >
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel Chez Amina</h3>
@@ -120,7 +122,7 @@
                                 </div>
                             </article>
                             <article class="card1">
-                                <img src="./images/hebergements/reisetopia.jpg" alt="photo d'une petite chambre à coucher en blanc"width="250px" height="124px">
+                                <img src="./images/hebergements/reisetopia.jpg" alt="Image d'une petite chambre d'hôtel en blanc" >
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel Les mouettes</h3>
@@ -137,7 +139,7 @@
                                 </div>
                             </article>
                             <article class="card1">
-                                <img src="./images/hebergements/annie-spratt.jpg" alt="photo d'une chambre à coucher avec un cadre mer"width="250px" height="124px">
+                                <img src="./images/hebergements/annie-spratt.jpg" alt="Image d'une chambre d'hôtel avec un cadre mer">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel de la mer</h3>
@@ -154,7 +156,7 @@
                                 </div>
                             </article>
                             <article class="card1">
-                                <img src="./images/hebergements/marcus-loke.jpg" alt="photo d'une petite chambre avec 2lits superposés"width="250px" height="124px">
+                                <img src="./images/hebergements/marcus-loke.jpg" alt="Image d'une petite chambre d'hôtel avec 2lits superposés" >
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Auberge La Canebière</h3>
@@ -171,7 +173,7 @@
                                 </div>
                             </article>
                             <article class="card1">
-                                <img src="./images/hebergements/nicate-lee.jpg" alt="photo d'une petite chambreavec des lits en bois superposés"width="250px" height="124px">
+                                <img src="./images/hebergements/nicate-lee.jpg" alt="Image d'une chambre d'hôtel avec des lits en bois superposés">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Auberge Le pamier</h3>
@@ -191,7 +193,7 @@
                           </a>
                         
                     </div>
-                    <p>Afficher plus</p>
+                    <a class="lienDecoration" href="">Afficher plus</a>
                  
                 </section>
                 <section class="populaires">
@@ -260,34 +262,36 @@
                     </div>
                 </section>
            </div>
-          </section>
-    <!--Section Activités-->
-          <section id="Activités">
+        
+    <!-- Activités à Marseille-->
+          
+          <div id="Activités">
+                <section >
                     <h2> Activités à Marseille</h2>
                     <div class="activités">
-                        <div class="activitésImg shadowCard">
-                            <img class="activitésImg radius" src="images/activites/reno-laithienne.jpg" alt="photo du vieux port Marseille" width="297.5px" height="380px">
+                        <div class="shadowCard">
+                            <img class="activitésImg radius" src="images/activites/reno-laithienne.jpg" alt="photo du vieux port Marseille">
                             <p>Vieux-Port</p>
                         </div>
-                        <div class="activitésImg shadowCard">
-                            <img class="activitésImg radius" src="images/activites/paul-hermann.jpg" alt="Photo du Fort Pomègues Marseille" width="297.5px" height="380px">
+                        <div class="shadowCard">
+                            <img class="activitésImg radius" src="images/activites/paul-hermann.jpg" alt="Photo du Fort Pomègues Marseille" >
                             <p>Fort de Pomègues</p>
                         </div>
-                        <div class="activitésImg shadowCard">
-                            <img class="activitésImg radius" src="images/activites/kilyan-sockalingum.jpg" alt="Photo du Parc national des Calanques" width="297.5px" height="380px">
+                        <div class="shadowCard">
+                            <img class="activitésImg radius" src="images/activites/kilyan-sockalingum.jpg" alt="Photo du Parc national des Calanques">
                             <p>Parc national des Calanques</p>
                         </div>
-                        <div class="activitésImg shadowCard">
-                            <img class="radius" src="images/activites/florian-wehde.jpg" alt="Photo de Notre-Dame-de-la-Garde à Marseille" width="297.5px" height="380px">
+                        <div class=" shadowCard">
+                            <img class="activitésImg radius" src="images/activites/florian-wehde.jpg" alt="Photo de Notre-Dame-de-la-Garde à Marseille">
                             <P>Notre-Dame-de-la-Garde </P>
                         </div>
                     </div>
                 </section>
-            </div>
+           </div>
     </main>
     <footer class="directionRow">
         <div class="backFooter ">
-            <p>A propos</p>
+            <p>À propos</p>
             <div class="directionColumn">
                 <a class="decorationNone colorBlack" href="#"> Fonctionnement du site</a>
                 <a class="decorationNone colorBlack" href="#"> Conditions générales</a>
@@ -304,8 +308,10 @@
         </div>
         <div class="backFooter">
             <p>Assistance</p>
-            <a class="decorationNone colorBlack" href="#"> Centre d'aide</a>
-            <a class="decorationNone colorBlack" href="#"> Nous contacter</a>
+            <div class="directionColumn">
+               <a class="decorationNone colorBlack" href="#"> Centre d'aide</a>
+               <a class="decorationNone colorBlack" href="#"> Nous contacter</a>
+            </div>
         </div>
        </footer>
     </div>

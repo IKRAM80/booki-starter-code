@@ -31,8 +31,12 @@
     display: flex;
     justify-content: center;
 }
-/*Nav*/
-a:hover{
+.booki{
+    width: 61.09px;
+    height: 19px;
+}
+/******Nav******/
+header a:hover{
     color: var(--main-color);
     border-top: 1px solid var(--main-color);
 }
@@ -58,7 +62,7 @@ a:hover{
 .colorBlack{
     color: black;
 }
-*/formulaire*/
+/******formulaire******/
 .borderNone {
     border: none; 
   }
@@ -105,7 +109,7 @@ a:hover{
     color: #FFFFFF;
     border-radius: 0px 15px 15px 0px;   
 }
-/*Filtres*/
+/******Filtres******/
 p {
     
     font-size: 18px;
@@ -118,6 +122,10 @@ p {
 .flexBetween {
     display: flex;
     justify-content: space-between;
+}
+.flexAround{
+    display: flex;
+    justify-content: space-around;
 }
 .buttonEconomique {
     height: 50px;
@@ -149,15 +157,16 @@ p {
 .button:hover{
     background-color: #DEEBFF ;
 }
-/*Infobar*/
+/******Infobar*******/
 .infoIcon{
     height: 24px;
     width: 24px;
-    border: 3px;
+    border: 1px;
+    border-block-style: circle;
     border-color: #D9D9D9;
    
 }
-/* hébergement-populaires*/
+/****** hébergement-populaires*******/
 
 .section-title {
     margin: 0;
@@ -177,9 +186,13 @@ p {
     border-radius: 20px;
     padding: 5px 5px 25px 6px; 
     margin:0px 0px 20px 0px ;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    
 }
 .card1 img{
     border-radius: 20px 20px 0px 0px;
+    width: 250px;
+    height: 124px;
 }
 
 .card img {
@@ -201,7 +214,6 @@ p {
     color: var(--main-bg-color)
 }
 
-/****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -275,14 +287,17 @@ p {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+/******Activités******/
 .activités{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;  
     margin-bottom: 40px;
 }
-.activitéImg{
-    margin-top: 40px;
+.activitésImg{
+    
+    width: 297.5px;
+    height: 380px;
 }
 .radius{
     border-radius: 20px 20px 0 0 ;
@@ -290,10 +305,10 @@ p {
 .shadowCard{
    
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
 }
 .activités P {
-    padding: 20px 19px 20px 19px;
+   
     font-size: 16px;
     font-weight: 700px;
     line-height: 18.78px;
@@ -303,7 +318,12 @@ p {
 .backFooter{
     background-color: var(--main-bg-color);
     margin-top: 20px;
-   
+    padding-left: 15px;
+    width: 446.67px;
+    height: 163px;  
+    font-size: 16px;
+    line-height: 18.78px;
+     
 }
 .directionColumn{
     display: flex;
@@ -313,6 +333,24 @@ p {
     display: flex;
     width: 100%;
 }
+.backFooter a:hover{
+    text-decoration: none;
+}
+.backFooter a {
+    line-height: 18.78px;
+    padding: 5px 20px 5px 5px ;
+}
+.lienDecoration{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+.backFooter p{
+    font-size: 18px;
+    font-weight: 700;
+}
+
 
 
 
