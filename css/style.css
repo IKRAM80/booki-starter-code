@@ -35,6 +35,9 @@
     width: 61.09px;
     height: 19px;
 }
+.containerBooki{
+    padding: 30px 50px 30px 50px;
+}
 /******Nav******/
 header a:hover{
     color: var(--main-color);
@@ -47,6 +50,7 @@ header a:hover{
 .sizeLiens{
     height: 35px;
     width: 344px;
+    padding: 0 50px 0 50px;
 }
 .sizeLien1{
     width: 113px;
@@ -89,7 +93,7 @@ header a:hover{
     height: 49px;
     width: 196px;
     font-size: 18px;
-    font-weight: 700px;
+    font-weight: 700;
     border: 1px;
     border-color: grey;
     color: black;
@@ -110,11 +114,16 @@ header a:hover{
     border-radius: 0px 15px 15px 0px;   
 }
 /******Filtres******/
+.filtres{
+    width: 54px;
+    margin: auto;
+}
 p {
     
     font-size: 18px;
-    font-weight: 700px;
+    font-weight: 700;
 }
+
 .flexStart{
     display: flex;
     justify-content: flex-start;
@@ -137,7 +146,7 @@ p {
 }
 .button{
     font-size: 17px;
-    font-weight: 700px;
+    font-weight: 700;
     padding: 4px 19px 4px 19px;
     background-color: #FFFFFF;
     border: 2px;
@@ -161,9 +170,12 @@ p {
 .infoIcon{
     height: 24px;
     width: 24px;
-    border: 1px;
-    border-block-style: circle;
-    border-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+   
+    text-align: center;
+    justify-content: center;
+
    
 }
 /****** hébergement-populaires*******/
@@ -310,7 +322,7 @@ p {
 .activités P {
    
     font-size: 16px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 18.78px;
     padding: 0 0 0px 10px;
 }
