@@ -36,12 +36,13 @@
     height: 19px;
 }
 .containerBooki{
-    padding: 30px 50px 30px 50px;
+    padding: 20px 50px 30px 10px;
 }
 /******Nav******/
 header a:hover{
     color: var(--main-color);
     border-top: 1px solid var(--main-color);
+    
 }
 .sizeNav{
     height: 79px;
@@ -97,11 +98,10 @@ header a:hover{
     border: 1px;
     border-color: grey;
     color: black;
+    text-align: center;
     
 }
-.paddingSearch {
-    padding-left: 20px;
-}
+
 .backBlue {
     background-color: var(--main-color);
 }
@@ -114,11 +114,8 @@ header a:hover{
     border-radius: 0px 15px 15px 0px;   
 }
 /******Filtres******/
-.filtres{
-    width: 54px;
-    margin: auto;
-}
-p {
+
+.flexStart p {
     
     font-size: 18px;
     font-weight: 700;
@@ -172,11 +169,8 @@ p {
     width: 24px;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
-   
     text-align: center;
-    justify-content: center;
-
-   
+    justify-content: center; 
 }
 /****** hébergement-populaires*******/
 
@@ -185,31 +179,6 @@ p {
     font-size: 22px;
 }
 
-.card {
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-}
-.card1 {
-    width: 250.33px ;
-    height: 207.25px;
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px 5px 25px 6px; 
-    margin:0px 0px 20px 0px ;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    
-}
-.card1 img{
-    border-radius: 20px 20px 0px 0px;
-    width: 250px;
-    height: 124px;
-}
-
-.card img {
-    object-fit: cover;
-}
 
 .card-title {
     font-size: 16px;
@@ -242,6 +211,21 @@ p {
 .hebergements {
     width: 65%;
 }
+.card1 {
+    width: 250.33px ;
+    height: 207.25px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 5px 25px 6px; 
+    margin:27px 0px 20px 0px ;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    
+}
+.card1 img{
+    border-radius: 20px 20px 0px 0px;
+    width: 250px;
+    height: 124px;
+}
 .hebergements-cards .card-content{
     padding-bottom: 15px;
     
@@ -266,6 +250,17 @@ p {
     justify-content: space-between;
     align-items: center;
 }
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.card img {
+    object-fit: cover;
+}
+
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
@@ -305,6 +300,11 @@ p {
     justify-content: space-between;
     flex-wrap: wrap;  
     margin-bottom: 40px;
+    margin-top: 40px;
+}
+.title{
+    font-size: 22px;
+   
 }
 .activitésImg{
     
