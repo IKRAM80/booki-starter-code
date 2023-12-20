@@ -24,7 +24,6 @@
 }
 .flexAround{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 .flexCenter{
@@ -119,29 +118,22 @@ header a:hover{
     
     font-size: 18px;
     font-weight: 700;
+    margin-right: 10px;
 }
 
 .flexStart{
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .flexBetween {
     display: flex;
     justify-content: space-between;
-}
-.flexAround{
-    display: flex;
-    justify-content: space-around;
-}
-.buttonEconomique {
-    height: 50px;
-    width: 173px;
-}
-.buttonFamilial {
-    height: 50px;
-    width: 134px;
+    margin-right: 20px;
 }
 .button{
+    display: block;
     font-size: 17px;
     font-weight: 700;
     padding: 4px 19px 4px 19px;
@@ -150,16 +142,10 @@ header a:hover{
     border-color: #D9D9D9;
     border-radius: 25px;
     border-style: solid;   
-    margin: 30px 10px 2px 10px;
+    margin-right: 10px;
+
 }
-.buttonRomantique{
-    height: 50px;
-    width: 170px;
-}
-.buttonPepite{
-    height: 50px;
-    width: 167px;
-}
+
 .button:hover{
     background-color: #DEEBFF ;
 }
@@ -217,7 +203,7 @@ header a:hover{
     background-color: white;
     border-radius: 20px;
     padding: 5px 5px 25px 6px; 
-    margin:27px 0px 20px 0px ;
+    margin:20px 3px 20px 3px ;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     
 }
@@ -225,6 +211,7 @@ header a:hover{
     border-radius: 20px 20px 0px 0px;
     width: 250px;
     height: 124px;
+    object-fit: cover;
 }
 .hebergements-cards .card-content{
     padding-bottom: 15px;
@@ -307,7 +294,7 @@ header a:hover{
    
 }
 .activitésImg{
-    
+    object-fit: cover;
     width: 297.5px;
     height: 380px;
 }
@@ -315,7 +302,7 @@ header a:hover{
     border-radius: 20px 20px 0 0 ;
 }
 .shadowCard{
-   
+    
     border-radius: 20px;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
 }
@@ -326,6 +313,7 @@ header a:hover{
     line-height: 18.78px;
     padding: 0 0 0px 10px;
 }
+
 /*Footer*/
 .backFooter{
     background-color: var(--main-bg-color);
