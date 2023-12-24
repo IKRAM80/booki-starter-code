@@ -182,11 +182,11 @@ header a:hover {
   width: 65%;
 }
 .card1 {
-  width: 250.33px;
+  width: 243px;
   height: 207.25px;
   background-color: white;
   border-radius: 20px;
-  padding: 5px 5px 25px 6px;
+  padding: 5px 12px 30px 6px;
   margin: 20px 3px 20px 3px;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
@@ -267,7 +267,7 @@ header a:hover {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 40px 20px 40px 20px;
+  margin: 40px 5px 40px 20px;
 }
 .title {
   font-size: 22px;
@@ -275,7 +275,7 @@ header a:hover {
 .activitésImg {
   object-fit: cover;
   width: 297.5px;
-  height: 380px;
+  height: 439px;
 }
 .radius {
   border-radius: 20px 20px 0 0;
@@ -288,7 +288,7 @@ header a:hover {
   font-size: 16px;
   font-weight: 700;
   line-height: 18.78px;
-  padding: 0 0 0px 10px;
+  padding: 0px 0 0px 15px;
 }
 
 /*Footer*/
@@ -339,7 +339,7 @@ header a:hover {
 }
 
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   .hebergements-and-populaires {
     flex-direction: column;
   }
@@ -372,6 +372,15 @@ header a:hover {
   }
   .shadowCard {
     margin: 20px 0 20px 0;
+  }
+  .activitésImg {
+    object-fit: cover;
+    width: 210.33px;
+    height: 270px;
+  }
+  .activités p {
+    padding-left: 3px;
+    font-size: 14px;
   }
 }
 
